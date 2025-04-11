@@ -34,11 +34,11 @@ theme2 = new Image()
 theme2.src = 'img/og-theme-2.png'
 frame = 0;
 degree = Math.PI/180
-SFX_SCORE.src = 'audio/sfx_point.wav'
-SFX_FLAP.src = 'audio/sfx_wing.wav'
-SFX_COLLISION.src = 'audio/sfx_hit.wav'
-SFX_FALL.src = 'audio/sfx_die.wav'
-SFX_SWOOSH.src = 'audio/sfx_swooshing.wav'
+SFX_SCORE.src = 'sfx_point.wav'
+SFX_FLAP.src = 'sfx_wing.wav'
+SFX_COLLISION.src = 'sfx_hit.wav'
+SFX_FALL.src = 'sfx_die.wav'
+SFX_SWOOSH.src = 'sfx_swooshing.wav'
 
 gameState = {
     //loads game on ready screen, tick to change state of game
